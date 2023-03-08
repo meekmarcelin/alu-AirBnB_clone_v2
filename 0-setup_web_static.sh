@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# setup nginx server and create a route "/hbnb_static/ to server index.html"
+# nginx set up for the server
 
 sudo apt-get -y update
 sudo apt-get -y install nginx
