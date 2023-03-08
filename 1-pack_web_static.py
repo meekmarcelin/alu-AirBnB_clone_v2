@@ -7,7 +7,7 @@ from datetime import datetime
 
 
 def do_pack():
-    """Create a tgz archive of the web_static folder"""
+    """ generate tgz """
     try:
         current_time = datetime.now().strftime("%Y%m%d%H%M%S")
         local("mkdir -p versions")
