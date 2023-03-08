@@ -16,5 +16,3 @@ def do_pack():
         return archive_path
     except:
         return None
-
-
