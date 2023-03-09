@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """ Fabric script to distribute an archive """
 from fabric.api import *
 from os.path import exists
