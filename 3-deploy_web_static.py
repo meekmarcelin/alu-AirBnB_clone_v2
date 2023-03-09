@@ -23,7 +23,7 @@ def do_pack():
 
 
 def do_deploy(archive_path):
-    "" create archive to web servers """
+    """ create archive to web servers """
     if not os.path.exists(archive_path) and not os.path.isfile(archive_path):
         return False
 
